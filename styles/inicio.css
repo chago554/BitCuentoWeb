@@ -1,0 +1,41 @@
+.container{
+    justify-items: center;
+    align-content: center;
+}
+
+.logo{
+    height: 700px;
+}
+
+.audio{
+    height: 0px;
+}
+
+.btnIniciar{
+    background-color: rgb(47, 47, 216);
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:hover.btnIniciar{
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 500px;
+    }
+}
+
+@media (max-width: 425px){
+    .logo {
+        height: 300px;
+    }
+}
+
