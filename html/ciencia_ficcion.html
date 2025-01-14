@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciencia ficción</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+
+        header {
+            background-color: blue;
+            font-size: 40px;
+            font-weight: bolder;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+        }
+
+        button {
+            background-color: rgb(160, 160, 250);
+            border: 0px;
+            text-align: center;
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+            padding: 15px;
+            cursor: pointer;
+
+        }
+
+        .cuento {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 55px;
+        }
+
+        @media (max-width: 768px) {
+            .cuento {
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+<header>
+    CIENCIA FICCIÓN
+</header>
+
+<body>
+    <div class="container">
+
+        <h1
+            style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            SELECCIONE EL CUENTO</h1>
+
+        <div class="cuento">
+            <img src="/BitCuento/cienciaFiccion/cienciaFiccionImg/gatogris.png" alt="" class="imagenCuento">
+            <a href=""><button class="btn">El descubrimiento de Max</button> </a>
+        </div>
+
+        <div class="cuento">
+            <img src="/BitCuento/cienciaFiccion/cienciaFiccionImg/cientifica.png" alt="" class="imagenCuento">
+            <a href=""><button class="btn">El descubrimiento de Anay</button> </a>
+        </div>
+        
+        <div class="cuento">
+            <img src="/BitCuento/cienciaFiccion/cienciaFiccionImg/marte.png " alt="" class="imagenCuento">
+            <a href=""><button class="btn">Ramón y el planeta rojo</button> </a>
+        </div>
+
+        <div class="cuento">
+            <img src="/BitCuento/cienciaFiccion/cienciaFiccionImg/perico.png" alt="" class="imagenCuento">
+            <a href=""><button class="btn">Rodrigo, el perico astronauta</button> </a>
+        </div>
+
+
+
+        <div class="cuento">
+            <img src="/BitCuento/cienciaFiccion/cienciaFiccionImg/ciclismo.png" alt="" class="imagenCuento">
+            <a href=""><button class="btn">Alex y la bicicleta</button> </a>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
